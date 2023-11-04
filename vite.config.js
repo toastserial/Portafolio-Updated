@@ -21,5 +21,5 @@ export default defineConfig({
         htmlPurge({}),
         ViteMinifyPlugin({})
     ],
-    base: "/Portafolio/"
+    base: "/Portafolio-Updated/"
 })
