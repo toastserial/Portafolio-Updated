@@ -26,22 +26,7 @@
 <body>
   <!--Hero-->
   <div class="hero">
-    <nav>
-      <h2 class="logo">Portafo<span>lio</span></h2>
-      <div class="menu-toggle">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
-    </button>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#about">Sobre Mí</a></li>
-        <li><a href="#servicios">Servicios</a></li>
-        <li><a href="#contact">Contacto</a></li>
-      </ul>
-    </nav>
-
+    {{> nav}}
     <div class="contenido">
       <h4>¡Un gusto! Mi nombre es</h4>
       <h1>Juan Carlos Ochoa</h1>
@@ -117,19 +102,7 @@
     <p>El que tiene imaginación, con qué facilidad saca de la nada un mundo.</p>
     <a class="button-two" href="#">Contratar</a>
   </div>
-  
-  <!--Footer-->
-
-  <footer>
-    <p>Juan Carlos Ochoa</p>
-    <p>Si deseas chequear mis redes sociales.</p>
-    <div class="social">
-      <a href="https://www.linkedin.com/in/juan-carlos-ochoa-7b80491a5/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="https://www.instagram.com/j.c_8ag/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-      <a href="https://www.youtube.com/@JuanCarlosOchoaGuzman" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-    </div>
-    <p class="end">CopyRight By Juan Carlos Ochoa</p>
-  </footer>
+  {{> footer}}
   <script src="script.js"></script>
 </body>
 
